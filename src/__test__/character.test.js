@@ -16,7 +16,7 @@ test("check create object of class Character", () => {
 // eslint-disable-next-line no-undef
 test("check create object with uncorrect type", () => {
     // eslint-disable-next-line no-undef
-    expect(() => new Character("Angel", "Angel")).toThrow(Error) ;
+    expect(() => new Character("Angel", "Angel")).toThrow(Error);
 });
 
 // eslint-disable-next-line no-undef
